@@ -34,6 +34,16 @@ ModulesPress supercharges your WordPress plugin development by introducing moder
 - 🔌 **Plugin Framework** - Built specifically for WordPress plugins
 - 🔄 **Hot Module Replacement** - Instant feedback during development
 
+<div align="center">
+
+### 📹 ModulesPress Video Guide
+
+[![](https://markdown-videos-api.jorgenkh.no/youtube/AZ2KsEkstkk)](https://youtu.be/AZ2KsEkstkk)
+
+Discover how to get started with ModulesPress. This video walks you through installation, setup, and plugin packaging using the powerful ModulesPress framework and CLI.
+
+</div>
+
 ## 🚀 Quick Start
 
 ### Installation
@@ -66,7 +76,7 @@ Here's a simple example of a ModulesPress plugin:
 
 ```php
 /**
- * Plugin Name: My Amazing Plugin
+ * Plugin Name: My Awesome Plugin
  * Description: Built with ModulesPress
  * Version: 1.0.0
  */
@@ -91,7 +101,7 @@ final class MyAwesomePlugin extends ModulesPressPlugin {
 
 }
 
-(new MyAwesomePlugin(__FILE__))->boot();
+(new MyAwesomePlugin())->bootstrap();
 ```
 
 ## 🤝 Contributing
